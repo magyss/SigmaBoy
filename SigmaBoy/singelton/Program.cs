@@ -16,6 +16,10 @@ class People {
     public People(string name) {
         this.name = name;
     }
+    public void GrowCS()
+    {
+        System.Console.WriteLine("Растить новый код");
+    }
 }
 
 class Factory
