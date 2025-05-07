@@ -10,6 +10,14 @@ interface IPlantFactory
 {
     public IPlant makePlant();
 }
+
+class People {
+    public string name;
+    public People(string name) {
+        this.name = name;
+    }
+}
+
 class Factory
 {
     public static Factory instance;
