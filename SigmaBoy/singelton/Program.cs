@@ -20,6 +20,8 @@ class People {
     {
         System.Console.WriteLine("Растить новый код");
     }
+
+    //Коммент про хейт сигмабьоя
 }
 
 class Factory
