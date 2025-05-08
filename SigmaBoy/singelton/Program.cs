@@ -11,6 +11,10 @@ interface IPlantFactory
     public IPlant makePlant();
 }
 
+interface IPersonTalk {
+    public void newTalk();
+}
+
 class People {
     public string name;
     public People(string name) {
@@ -24,6 +28,7 @@ class People {
     public void Sigma() {
         Console.WriteLine("SIGMA");
     }
+
 }
 
 class Factory
