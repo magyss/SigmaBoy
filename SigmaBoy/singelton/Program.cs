@@ -21,7 +21,9 @@ class People {
         System.Console.WriteLine("Растить новый код");
     }
 
-    //Коммент про хейт сигмабьоя
+    public void Sigma() {
+        Console.WriteLine("SIGMA");
+    }
 }
 
 class Factory
