@@ -15,6 +15,10 @@ interface IPersonTalk {
     public void newTalk();
 }
 
+interface IPlantZombie {
+    public void vsZombie();
+}
+
 class People {
     public string name;
     public People(string name) {
