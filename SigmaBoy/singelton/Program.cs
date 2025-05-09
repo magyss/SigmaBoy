@@ -32,7 +32,10 @@ class People {
     public void Sigma() {
         Console.WriteLine("SIGMA");
     }
-
+    public void vsZombie()
+    {
+        System.Console.WriteLine("Zombie attack people");
+    }
 }
 
 class Factory
