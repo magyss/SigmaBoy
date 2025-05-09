@@ -40,7 +40,7 @@ class People {
 
 class Factory
 {
-    public static Factory instance;
+    public static Factory instance, newinsta;
     public string name;
     public Factory(string name)
     {
